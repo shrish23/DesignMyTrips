@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#EFD8D8"
+    tools:context=".pages">
+
+    <TextView
+        android:id="@+id/notesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="NOTES"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewNotes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/addNoteBTN"
+        android:layout_below="@+id/notesTitle" />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Note"
+        android:id="@+id/addNoteBTN"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/recyclerViewNotes"
+        android:layout_marginStart="179dp"
+        android:layout_marginBottom="6dp"
+        android:layout_toEndOf="@+id/notesTitle"
+        android:minHeight="48dp"
+        android:text="@string/logout"
+        />
+
+</RelativeLayout>

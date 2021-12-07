@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "375037946885",
+    "project_id": "songpad-1d6e9",
+    "storage_bucket": "songpad-1d6e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375037946885:android:5f61e2e2e8e6aa7c7f806c",
+        "android_client_info": {
+          "package_name": "com.example.songpad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375037946885-grbstimrser2r0n7a9vli12a7otepu4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_-sNpiemF-ChhMYTLAUoE0U11ArN-gu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375037946885-grbstimrser2r0n7a9vli12a7otepu4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

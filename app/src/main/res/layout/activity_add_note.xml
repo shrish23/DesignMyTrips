@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".add_note">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newNoteTitle"
+        android:text="Create A New Note"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newNoteName"
+        android:text="Name"
+
+        android:layout_below="@+id/newNoteTitle"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNoteName"
+        android:layout_below="@+id/newNoteName"
+        android:hint="NAME OF THE NOTE"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/createNewNoteBTN"
+        android:layout_below="@+id/etNoteName"
+        android:text="Create New Note"
+        />
+
+</RelativeLayout>

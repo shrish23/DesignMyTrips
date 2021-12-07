@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#EFD8D8"
+    tools:context=".pages">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAGES"
+        android:id="@+id/pageTitle"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        android:layout_above="@+id/addPageBTN"
+        android:layout_below="@+id/pageTitle"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Page"
+        android:id="@+id/addPageBTN"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
